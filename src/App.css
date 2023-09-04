@@ -1,38 +1,598 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar */
+
+.nav-bg {
+  background-color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.miniGlobe {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.miniGlobe:hover svg g path {
+  fill: #6022EA;
+}
+
+.dropdownBtn {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.z-1000 {
+  z-index: 1000;
+}
+
+.dropdownBtn:hover {
+  color: #6022EA !important;
+}
+
+.dropdownBtn:hover p {
+  color: #6022EA !important;
+}
+
+.txt {
+  cursor: pointer;
+}
+
+.txt:hover {
+  color: #6022EA !important;
+}
+
+.navBtn {
+  background-color: #6022EA;
+  padding: 10px 24px;
+  border-radius: 80px;
+  border: 2px solid #6022EA;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.navBtn:hover {
+  background-color: white;
+  color: #6022EA;
+  transition: 280ms all linear !important;
+  padding: 10px 24px;
+  border-radius: 80px;
+  border: 2px solid #6022EA;
+  box-shadow: 0px 2px 4px 2px #6022EA;
+}
+
+/* Header_Section */
+
+.headerLine::before {
+  content: '';
+  width: 5px;
+  height: 87%;
+  top: 51%;
+  background-color: #6022EA;
+  position: absolute;
+  left: -10px;
+  transform: translateY(-50%)
+}
+
+.headerBtn {
+  background-color: #6022EA;
+  border: 1px solid #6022EA;
+  padding: 12px 40px;
+  border-radius: 80px;
+  display: inline-block;
+  outline: none;
+}
+
+.headerBtn:hover {
+  background-color: #ffffff;
+  color: #6022EA;
+  box-shadow: 0px 2px 4px 2px #6022EA;
+  cursor: pointer;
+
+}
+
+.headerImg {
+  width: 100% !important;
+}
+
+.pb-149 {
+  padding-bottom: 149px;
+}
+
+
+/* Tellus_More */
+
+.tellusMore-bg {
+  background-color: #0d0d0d;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.search_bg {
+  border-radius: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 33px;
+}
+
+.max-573 {
+  max-width: 573px;
+}
+
+.crsr {
+  cursor: pointer !important;
+}
+
+/* Featured_Bg */
+
+.featuredonBg {
+  background-color: #F6F6F6;
+}
+
+
+
+/* IntegerSection */
+
+.integerBg {
+  background-color: #fefefe;
+}
+
+.learnMore:Hover {
+  background: -webkit-linear-gradient(#FA00FF, #5F21E9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1000% !important;
+}
+
+.integerCard {
+  padding: 60px 38px 38px 38px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  min-height: 426px;
+  align-self: stretch;
+  cursor: help;
+}
+
+.integerCard:hover {
+  box-shadow: 0px 2px 4px 6px #6022EA;
+  transition: 300ms all linear;
+  scale: 1.05;
+
+}
+
+/* VipeStudio */
+
+.max-533 {
+  max-width: 533px;
+}
+
+.vipeCard {
+  max-width: 1320px;
+  background-color: #000000;
+  flex-shrink: 0;
+  padding: 27px 32px 27px 33px;
+  border-radius: 26px;
+}
+
+.max-324 {
+  max-width: 324px;
+}
+
+.max-386 {
+  max-width: 386px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-170 {
+  margin-top: 170px;
+}
+
+/* WordpressPartner */
+.max-631 {
+  max-width: 631px;
+}
+
+.max-693 {
+  max-width: 693px;
+}
+
+.wordpressPartnerBg {
+  background-color: #F6F6F6;
+}
+
+
+/* AgileWordpress */
+
+.max-670 {
+  max-width: 670px;
+}
+
+
+/* StarTeam */
+
+.starTeamBg {
+  background-color: #F6F6F6;
+}
+
+.teamImg {
+  transform: translateY(73px);
+}
+
+.max-476 {
+  max-width: 476px;
+}
+
+/* SuccessGuides */
+.SuccessGuidesBg {
+  background-color: #FEFEFE;
+}
+
+.mt-245 {
+  margin-top: 245px;
+}
+
+.mb-262 {
+  margin-bottom: 262px;
+}
+
+.speedPerformance {
+  border-radius: 17px;
+  background: linear-gradient(91deg, #5F21E9 60.06%, #FA00FF 103.73%);
+  box-shadow: 0px 20px 50px 0px rgba(39, 0, 124, 0.50);
+  flex-shrink: 0;
+  padding: 25px 53px 45px 45px;
+  transform: translateY(37%);
+}
+
+.successGuidesCard {
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  background: #FFF;
+  box-shadow: 12.11429px 48.45714px 60.57143px 0px rgba(229, 233, 246, 0.40);
+  flex-shrink: 0;
+  padding: 14px;
+  background-color: #FFFFFF;
+}
+
+.nav-tabs {
+  border: none !important;
+  --bs-nav-tabs-border-width: none !important;
+  gap: 16px !important;
+  padding-top: 20px !important;
+  padding-bottom: 33px !important;
+}
+
+.pt-245 {
+  padding-top: 200px;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 80px !important;
+  border: 1px solid #6022EA !important;
+  background: #FFF !important;
+  color: #6022EA !important;
+  gap: 20px !important;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #6022EA !important;
+  border-radius: 80px !important;
+  color: white !important;
+}
+
+
+.checkBtn {
+  padding: 14px 38px;
+  background-color: #ffffff;
+  border-radius: 137px;
+  transition: all linear 0.3s;
+  outline: none;
+  border: none;
+}
+
+.checkBtn:hover {
+  background: #000000;
+  cursor: pointer;
   color: white;
+  transform: scale(1.05);
+
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Preloader */
+
+.bg-color {
+  background-color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.z-99 {
+  z-index: 99 !important;
+}
+
+.z_1 {
+  z-index: 1;
+}
+
+.wordpressLoader {
+  animation: zigzag 3s linear infinite;
+}
+
+@keyframes zigzag {
+  0% {
+    transform: translateY(0px);
   }
-  to {
-    transform: rotate(360deg);
+
+  35% {
+    transform: translateY(-20px);
   }
+
+  70% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+
+/* BackToTop */
+
+.box_circle {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  transform: all .3s linear;
+  scroll-behavior: smooth;
+}
+
+.box_circle:hover {
+  background: linear-gradient(#5F21E9, #FA00FF)
+}
+
+.backtotop {
+  position: fixed;
+  display: none;
+  bottom: 3%;
+  right: 2%;
+  z-index: 2;
+  animation: rotate1 linear 2.5s infinite;
+  transform: translateY(0%);
+}
+
+
+
+/* Footer */
+
+.pt-150 {
+  padding-top: 150px;
+}
+
+.footerSearch {
+  background-color: #ffffff;
+  border: none;
+  max-width: 381px !important;
+  border-radius: 80px;
+  padding: 10px 21px;
+  flex-shrink: 0;
+}
+
+.footerLine {
+  width: 100%;
+  background-color: #4C4C4C;
+  height: 2px;
+  margin-top: 71px;
+}
+
+.whiteSpace {
+  white-space: nowrap;
+}
+
+.brdr {
+  border-radius: 20px !important;
+}
+
+/* Blur */
+
+.blurGradient {
+  height: 187px;
+  width: 187px;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(70px);
+  background-color: #6022EA;
+  top: 60%;
+  left: 47%;
+}
+
+.blurGradient2 {
+  height: 187px;
+  width: 187px;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(70px);
+  background-color: #FA00FF;
+  top: 28%;
+  right: 5%;
+}
+
+.gradientVipe1 {
+  left: 10%;
+}
+
+.gradientVipe2 {
+  right: 11%;
+  top: 67%;
+}
+
+.gradientVipe3 {
+  left: 80%;
+}
+
+
+.github:hover svg g circle {
+  fill: transparent;
+}
+
+.github:hover svg g path {
+  fill: white;
+  transition: all linear 300ms;
+}
+
+.linkedin:hover svg g circle {
+  fill: transparent;
+}
+
+.linkedin:hover svg g path {
+  fill: white;
+  transition: all linear 300ms;
+}
+
+.twitter:hover svg g circle {
+  fill: transparent;
+}
+
+.twitter:hover svg g path {
+  fill: white;
+  transition: all linear 300ms;
+}
+
+.facebook:hover svg g circle {
+  fill: transparent;
+}
+
+.facebook:hover svg g path {
+  fill: white;
+  transition: all linear 300ms;
+}
+
+.instagram:hover svg g circle {
+  fill: transparent;
+}
+
+.instagram:hover svg g path {
+  fill: white;
+  transition: all linear 300ms;
+}
+
+.wordpress:hover svg g circle {
+  fill: transparent;
+}
+
+.wordpress:hover svg g path {
+  fill: white;
+  transition: all linear 300ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1580px) {
+  .headerImg {
+    width: 118% !important;
+    border-radius: 20px;
+  }
+
+}
+
+
+
+@media (max-width:992px) {
+  .nav_bar {
+    color: #FFFFFF;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: rgba(59, 59, 59, 1);
+    transition: all 0.4s linear;
+    z-index: 1;
+  }
+
+  .mt-170 {
+    margin-top: 70px;
+  }
+}
+
+.show {
+  left: 0;
+}
+
+
+@media (min-width:576px) {
+  .footerSearch {
+    min-width: 381px !important;
+  }
+
+}
+
+@media (max-width:768px) {
+  .pb-149 {
+    padding-bottom: 50px;
+  }
+
+  .pt-245 {
+    padding-top: 70px;
+  }
+
 }
