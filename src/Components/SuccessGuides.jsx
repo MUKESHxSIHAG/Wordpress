@@ -35,7 +35,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>Sit diam metus</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4} md={6} className='mt-md-0 mt-4'>
@@ -43,7 +43,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>diam metus Sit</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4} md={6} className='mt-lg-0 mt-4'>
@@ -51,7 +51,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>metus Sit diam</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                             </Row>
@@ -63,7 +63,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>diam Sit metus</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4} md={6} className='mt-md-0 mt-4'>
@@ -71,7 +71,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>Sit metus diam</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4} md={6} className='mt-lg-0 mt-4'>
@@ -79,7 +79,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'> diam metus Sit</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                             </Row>
@@ -91,7 +91,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'> metus Sit diam</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4} md={6}>
@@ -99,7 +99,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>Sit diam metus </h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4} md={6}>
@@ -107,7 +107,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>diam Sit metus  </h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                             </Row>
@@ -119,7 +119,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>Sit diam metus</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4} md={6}>
@@ -127,7 +127,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>Sit diam metus</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4} md={6}>
@@ -135,7 +135,7 @@ const SuccessGuides = () => {
                                                         <img className='w-100' src={VipePPP} alt="Vipe PPP" />
                                                         <h4 className='fs-24 fc-black ff-Gilroy fw-600 mt-3'>Sit diam metus</h4>
                                                         <p className='fs-16 fc-black fw-400 ff-Gilroy opacity-75'>Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
-                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr'>Learn More....</p>
+                                                        <p className='fc-primary ff-Gilroy fs-16 fw-600 crsr learnMore'>Learn More....</p>
                                                     </div>
                                                 </Col>
                                             </Row>
