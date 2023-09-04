@@ -15,7 +15,7 @@ const TellusMore = () => {
                           </div>
                       </Col>
 
-                      <Col lg={6} data-aos="zoom-in"  className='d-flex justify-content-center flex-column'>
+                      <Col lg={6} data-aos="zoom-in" className='d-flex justify-content-center flex-column' id='inpt'>
                           <div className='d-flex justify-content-between search_bg'>
                               <input type="text" placeholder='What do you need assistance with?' />
                               <img className='crsr' src={SearchIcon} alt="Search Icon" />

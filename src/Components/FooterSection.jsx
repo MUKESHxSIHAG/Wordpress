@@ -21,19 +21,19 @@ const FooterSection = () => {
                                 <ul>
                                     <li className='ff-Gilroy fs-16 fw-400 fc-white'>Services</li>
                                     <Link className='d-flex mt-4 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>WordPress Development</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>WordPress Development</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>WooCommerce Development</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>WooCommerce Development</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>WordPress Maintenance</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>WordPress Maintenance</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>Speed Optimizationt</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>Speed Optimizationt</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>Dedicated WordPress Developer</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>Dedicated WordPress Developer</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>Headless WordPress Development</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>Headless WordPress Development</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>White Label Development</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>White Label Development</p></Link>
                                 </ul>
                             </div>
                         </Col>
@@ -43,17 +43,17 @@ const FooterSection = () => {
                                 <ul>
                                     <li className='ff-Gilroy fs-16 fw-400 fc-white'>Services</li>
                                     <Link className='d-flex mt-4 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>WordPress Hosting</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>WordPress Hosting</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>PSD, XD, Figma to WordPress Conversion</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>PSD, XD, Figma to WordPress Conversion</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>Custom WordPress Theme</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>Custom WordPress Theme</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>Custom WordPress Plugins</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>Custom WordPress Plugins</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>CMS to WordPress</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>CMS to WordPress</p></Link>
                                     <Link className='d-flex mt-3 gap-1'><img src={Arrow} alt="Arrow" />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>WordPress Malware Removal</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>WordPress Malware Removal</p></Link>
 
                                 </ul>
                             </div>
@@ -64,14 +64,14 @@ const FooterSection = () => {
                                 <ul>
                                     <li className='ff-Gilroy fs-16 fw-400 fc-white'>Latest Articles</li>
                                     <Link className=' d-flex flex-column mt-4'>
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>7 WordPress Plugins to Create an Effective Newsletter 03.01.2022</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>7 WordPress Plugins to Create an Effective Newsletter 03.01.2022</p></Link>
                                     <Link className='d-flex flex-column mt-3'>
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>What’s the Perfect Blog Post Length for Your WordPress Site’s SEO?
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>What’s the Perfect Blog Post Length for Your WordPress Site’s SEO?
                                             02.01.2022</p></Link>
                                     <Link className='d-flex flex-column mt-3'>
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>5 Reasons the Future of WordPress Is Headless 01.01.2022</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>5 Reasons the Future of WordPress Is Headless 01.01.2022</p></Link>
                                     <Link className='d-flex flex-column mt-3'>
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75 learnMore'>Viptor Says: Vipe Studio’s WordPress Developers Wrap Up the Amazingly Successful 2021 30.12.2021</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy opacity-75'>Viptor Says: Vipe Studio’s WordPress Developers Wrap Up the Amazingly Successful 2021 30.12.2021</p></Link>
 
 
                                 </ul>
@@ -84,17 +84,17 @@ const FooterSection = () => {
                                     <li className='ff-Gilroy fs-16 fw-400 fc-white'>Contact</li>
                                     <Link className='d-flex mt-4 opacity-75 gap-2'>
                                         <Call />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy learnMore'>EU: +359 988 993 128</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy'>EU: +359 988 993 128</p></Link>
                                     <Link className='d-flex mt-3 opacity-75 gap-2'>
                                         <Call />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy learnMore'>US: +1 (1 888) 266-6917</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy'>US: +1 (1 888) 266-6917</p></Link>
                                     <Link className='d-flex mt-3 opacity-75 gap-2'>
                                         <Email />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy learnMore'>office@vipestudio.com
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy'>office@vipestudio.com
                                         </p></Link>
                                     <Link className='d-flex mt-3 opacity-75 gap-2'>
                                         <Home />
-                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy learnMore'>14 Srebarna, Sofia 1407, Bulgaria</p></Link>
+                                        <p className='mb-0 fc-white fs-14 fw-400 ff-Gilroy'>14 Srebarna, Sofia 1407, Bulgaria</p></Link>
 
                                 </ul>
                             </div>

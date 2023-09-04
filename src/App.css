@@ -126,6 +126,18 @@ input {
   padding: 20px 33px;
 }
 
+.search_bg input {
+  color: white;
+}
+
+#inpt input {
+  color: white;
+}
+
+input {
+  width: 80%;
+}
+
 .max-573 {
   max-width: 573px;
 }
