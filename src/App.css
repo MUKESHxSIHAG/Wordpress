@@ -424,25 +424,28 @@ input {
 /* Blur */
 
 .blurGradient {
-  height: 187px;
-  width: 187px;
+  height: 294px;
+  width: 245px;
   border-radius: 50%;
   position: absolute;
-  filter: blur(70px);
-  background-color: #6022EA;
-  top: 60%;
+  filter: blur(117px);
+background: linear-gradient(#FA00FF, #6022EA);
+  top: 52%;
   left: 47%;
 }
 
+.pt-15{
+  padding-top: 70px;
+}
 .blurGradient2 {
-  height: 187px;
-  width: 187px;
+  height: 272px;
+  width: 317px;
   border-radius: 50%;
   position: absolute;
-  filter: blur(70px);
-  background-color: #FA00FF;
-  top: 28%;
-  right: 5%;
+  filter: blur(117px);
+  background: linear-gradient(#FA00FF, #6022EA);
+  top: 33%;
+  right: 6%;
 }
 
 .gradientVipe1 {

@@ -9,7 +9,6 @@ const VipeStudio = () => {
             <section className='nav-bg position-relative overflow-hidden'>
                 <div className='blurGradient gradientVipe1'></div>
                 <div className='blurGradient2 gradientVipe2'></div>
-                <div className='blurGradient gradientVipe3'></div>
                 <Container className='pt-3 pb-5 position-relative z-3'>
                     <div className='d-flex flex-wrap justify-content-between pt-5'>
                         <div data-aos="zoom-in">

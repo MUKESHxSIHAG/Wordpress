@@ -7,7 +7,7 @@ const HeaderSection = () => {
   return (
     <>
       <WordpressNavBar/>
-      <header className='nav-bg pt-5 position-relative pt-5 overflow-hidden'>
+      <header className='nav-bg position-relative pt-15 overflow-hidden'>
         <div className='blurGradient'></div>
         <div className='blurGradient2'></div>
         <Container className='pt-5 position-relative z-3  mt-5'>
