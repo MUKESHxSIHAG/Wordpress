@@ -10,7 +10,7 @@ const HeaderSection = () => {
       <header className='nav-bg position-relative pt-15 overflow-hidden'>
         <div className='blurGradient'></div>
         <div className='blurGradient2'></div>
-        <Container className='pt-5 position-relative z-3  mt-5'>
+        <Container className='pt-md-5 pt-0 position-relative z-3  mt-5'>
           <Row className='align-items-center justify-content-center pb-149 pt-5 mt-5'>
             <Col lg={6} data-aos="zoom-in">
               <h1 className='ff-Konexy fw-800 fc-white fs-72 position-relative headerLine mb-0'>

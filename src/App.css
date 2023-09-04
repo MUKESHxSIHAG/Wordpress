@@ -610,4 +610,8 @@ background: linear-gradient(#FA00FF, #6022EA);
     padding-top: 70px;
   }
 
+  .pt-15{
+    padding-top: 0;
+  }
+
 }
