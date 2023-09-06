@@ -8,7 +8,7 @@ const AgileWordpress = () => {
               <Container className='pt-5 pb-5'>
                   <Row className='pt-3 pb-5 align-items-center justify-content-center'>
                       <Col lg={6} data-aos="zoom-in">
-                          <img className='w-100' src={DevelopmentImg} alt="Development" />
+                          <img className='w-100 pe-5' src={DevelopmentImg} alt="Development" />
                       </Col>
 
                       <Col lg={6} className='mt-xl-0 mt-5' data-aos="zoom-in">

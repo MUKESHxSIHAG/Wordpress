@@ -90,7 +90,7 @@ const VipeStudio = () => {
                                 <Col lg={4} data-aos="zoom-in">
                                     <div>
                                         <h2 className='max-324 ff-Konexy fs-35 fw-400 fc-white'>Not Sure which service you need yet?</h2>
-                                        <p className='ff-Gilroy fs-16 fw-600 fc-white navBtn mt-4'>Schedule An Appointment</p>
+                                        <p className='ff-Gilroy fs-16 fw-600 fc-white navBtn mt-4 whiteSpace'>Schedule An Appointment</p>
                                     </div>
                                 </Col>
 

@@ -391,6 +391,8 @@ input {
 
 
 
+
+
 /* Footer */
 
 .pt-150 {
@@ -463,7 +465,7 @@ background: linear-gradient(#FA00FF, #6022EA);
 
 
 .github:hover svg g circle {
-  fill: transparent;
+  fill: #5F21E9;
 }
 
 .github:hover svg g path {
@@ -472,7 +474,7 @@ background: linear-gradient(#FA00FF, #6022EA);
 }
 
 .linkedin:hover svg g circle {
-  fill: transparent;
+  fill:#5F21E9;
 }
 
 .linkedin:hover svg g path {
@@ -481,7 +483,7 @@ background: linear-gradient(#FA00FF, #6022EA);
 }
 
 .twitter:hover svg g circle {
-  fill: transparent;
+  fill: #5F21E9;
 }
 
 .twitter:hover svg g path {
@@ -490,7 +492,7 @@ background: linear-gradient(#FA00FF, #6022EA);
 }
 
 .facebook:hover svg g circle {
-  fill: transparent;
+  fill: #5F21E9;
 }
 
 .facebook:hover svg g path {
@@ -499,7 +501,7 @@ background: linear-gradient(#FA00FF, #6022EA);
 }
 
 .instagram:hover svg g circle {
-  fill: transparent;
+  fill: #5F21E9;
 }
 
 .instagram:hover svg g path {
@@ -508,7 +510,7 @@ background: linear-gradient(#FA00FF, #6022EA);
 }
 
 .wordpress:hover svg g circle {
-  fill: transparent;
+  fill: #5F21E9;
 }
 
 .wordpress:hover svg g path {
